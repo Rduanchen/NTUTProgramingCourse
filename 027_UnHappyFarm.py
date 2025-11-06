@@ -61,19 +61,6 @@ def Na(row, col, current):
     return changeCommands
 
 
-# def Na(row, col, current):
-#     changeCommands = []
-#     # 右邊種 Qx (無論是空格還是已有植物)
-#     if col != 4:
-#         changeCommands.append([row, col + 1, "Qx"])
-
-#     # 左邊種 Hy (無論是空格還是已有植物)
-#     if col != 0:
-#         changeCommands.append([row, col - 1, "Hy"])
-
-#     return changeCommands
-
-
 def Qx(row, col, current):
     changeCommand = []
     rowField = current[row]
